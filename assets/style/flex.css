@@ -50,6 +50,17 @@
   max-width: 400px;
 }
 
+.rodape {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 1.5rem;
+}
+
+.rodape__logo {
+  align-self: flex-end;
+}
+
 @media (min-width: 720px){
   /* HEADER */
   .menu {
