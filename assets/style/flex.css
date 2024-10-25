@@ -24,6 +24,19 @@
   flex-grow: 1;
 }
 
+.eventos__lista {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 1rem;
+  column-gap: 1.5rem;
+  justify-content: center;
+}
+
+.eventos__item {
+  flex-grow: 1;
+  max-width: 400px;
+}
+
 @media (min-width: 720px){
   /* HEADER */
   .menu {
@@ -35,6 +48,10 @@
     flex-wrap: wrap;
     row-gap: 1rem;
     column-gap: 1.5rem;
+  }
+
+  .eventos__lista {
+    justify-content: end;
   }
 }
 
